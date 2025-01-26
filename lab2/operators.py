@@ -54,7 +54,10 @@ print(t)
 t //= 3 
 print(t)    
 t **= 0
-print(t)    
+print(t) 
+
+t = True 
+
 t &= 6 
 print(t)    
 t |= 3 

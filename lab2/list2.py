@@ -14,3 +14,11 @@ while i<len(list):
 
 #comprehension
 
+fruits = ["apple", "banana", "cherry"]
+nulllist = []
+
+for x in fruits:
+  if "a" in x:
+    nulllist.append(x)
+
+print(nulllist)
