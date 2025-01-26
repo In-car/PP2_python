@@ -39,7 +39,7 @@ print( y<<2 ) #zero fill left shift
 print( y>>2 ) #zero fiil right shift 
 
 #assignment 
-t = 12 
+t = 12
 print(t)    
 t += 2
 print(t)    
@@ -47,14 +47,13 @@ t -= 4
 print(t)    
 t *= 1 
 print(t)    
-t /= 9 
+t /= 5
 print(t)    
 t %= 2 
 print(t)    
 t //= 3 
 print(t)    
 t **= 0
-bool(t)
 print(t)    
 t &= 6 
 print(t)    

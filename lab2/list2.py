@@ -12,3 +12,5 @@ while i<len(list):
 
 [print(x) for x in list]
 
+#comprehension
+
