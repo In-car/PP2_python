@@ -30,3 +30,14 @@ def myfunc(n):
 
 mytripler = myfunc(3)
 print(mytripler(10)) 
+
+#we can also use both functions in same program
+def my_func(k) :
+    return lambda a : a * k ; 
+
+mydoubler = my_func(2)
+mytripler = my_func(3)
+
+print(mydoubler(11))
+print(mytripler(11))
+
