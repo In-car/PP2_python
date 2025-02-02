@@ -31,7 +31,7 @@ names.pop(3)
 names.remove("Aisha")
 
 
-#here is other methods wew can use 
+#here is other methods we can use 
 evennumbers = [ 2, 4, 6, 8 ]
 print(evennumbers)
 
