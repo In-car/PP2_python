@@ -65,7 +65,7 @@ print(y)
 oddnumbers.insert(9 , 2)
 print(oddnumbers)
 
-#reverse() reverses the order of the list(Does NOT sors it in reverse)
+#reverse() reverses the order of the list(Does NOT sorts it in reverse)
 print(oddnumbers)
 oddnumbers.reverse()
 print(oddnumbers)
