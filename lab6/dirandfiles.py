@@ -48,7 +48,11 @@ print(l.read())
 
 #6
 
-letters = [ "A" , "B" , "C"]
+import os 
+
+letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in letters : 
+    file = open(f"{i}.txt" , "x")
 
 #7
 
