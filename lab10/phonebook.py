@@ -3,13 +3,14 @@ import csv
 
 #измени строку подключения к своей bd
 def connect():
-   psycopg2.connect(
-    dbname="youdontknowmybd",
-    user="youdontknowmyuseraswell",
-    password="youdontknowmypassword",
-    host="localhost",
-    port="5432"
-)
+    return psycopg2.connect(
+        dbname="lab10",
+        user="postgres",
+        password="no",
+        host="localhost",
+        port="5432"
+    )
+
 
 
 def create_table():
@@ -79,7 +80,7 @@ def delete_user_by_name_or_phone(value):
 if __name__ == "__main__":
     create_table()
     #insert_from_input()
-    #insert_from_csv("contacts.csv")
+    insert_from_csv("contacts.csv")
     #update_user("Aliya", new_phone="87001234567")
     #search_by_name("Ali")
     #delete_user_by_name_or_phone("Aliya")
